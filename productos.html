@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>UrbanFit Gear - Productos</title>
+  <link rel="icon" type="image/png" href="Imagenes/Logo.png">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <!-- HEADER -->
+  <header>
+    <div class="Logo">
+      <img src="Imagenes/Logo.png" alt="Logo UrbanFit Gear" width="50">
+      <h1>UrbanFit Gear</h1>
+    </div>
+    <ul class="nav-links">
+    <li><a href="index.html">Inicio</a></li>
+    <li><a href="contacto.html">Contacto</a></li>
+  </ul>
+  <!-- 🔽 Agrega esto -->
+  <div class="menu-toggle" onclick="toggleMenu()">☰</div>
+</nav>
+  </header>
+
+  <!-- PRODUCTOS -->
+  <section class="products">
+    <h2>Nuestra Colección</h2>
+    <!-- 🔽 Descripción unida -->
+    <p class="section-desc">
+      En <strong>UrbanFit Gear</strong> En UrbanFit Gear encontrarás distintos tipos de ropas y 
+      accesorios diseñados para combinar comodidad deportiva con estilo urbano. 
+      Cada prenda refleja energía, movimiento y autenticidad, pensada para acompañarte en tus 
+      entrenamientos y en tu día a día con un look moderno y lleno de actitud.
+    </p>
+
+    <!-- 🔽 Tarjetas de productos -->
+    <div class="card-container">
+      <div class="card">
+        <img src="Imagenes/playera.png" alt="Playera Deportiva">
+        <h3>Playera Deportiva</h3>
+        <p>Comodidad y frescura para tus entrenamientos.</p>
+        <p><strong>Q75.00</strong></p>
+        <button class="btn">Agregar</button>
+      </div>
+
+      <div class="card">
+        <img src="Imagenes/Sudadera.png" alt="sudadera Deportiva">
+        <h3>sudadera Deportiva</h3>
+        <p>Diseño flexible y moderno para cualquier disciplina.</p>
+        <p><strong>Q110.00</strong></p>
+        <button class="btn">Agregar</button>
+      </div>
+
+      <div class="card">
+        <img src="Imagenes/zapatos.png" alt="zapatos Premium">
+        <h3>zapatos Premium</h3>
+        <p>Ideal para salir a correr cuando quieras.</p>
+        <p><strong>Q150.00</strong></p>
+        <button class="btn">Agregar</button>
+      </div>
+
+      <div class="card">
+        <img src="Imagenes/gorra.png" alt="gorra Gear">
+        <h3>Gora Gear</h3>
+        <p>Para cubrirte del sol, con estilo y maxima comodidad</p>
+        <p><strong>Q50.00</strong></p>
+        <button class="btn">Agregar</button>
+      </div>
+
+      <div class="card">
+        <img src="Imagenes/muñequeras.png" alt="muñequeras Deportivas">
+        <h3>muñequeras Deportivas</h3>
+        <p>Estilo urbano con máxima comodidad.</p>
+        <p><strong>Q25.00</strong></p>
+        <button class="btn">Agregar</button>
+      </div>
+
+      <div class="card">
+        <img src="Imagenes/mochila.png" alt="Mochila UrbanFit">
+        <h3>Mochila UrbanFit</h3>
+        <p>Práctica y espaciosa para tu día a día.</p>
+        <p><strong>Q250.00</strong></p>
+        <button class="btn">Agregar</button>
+      </div>
+
+      <div class="card">
+        <img src="Imagenes/botellas.png" alt="termo para entrenar">
+        <h3>Termo de aluminio</h3>
+        <p>Diseñadas para guardar tus bebidas.</p>
+        <p><strong>Q50.00</strong></p>
+        <button class="btn">Agregar</button>
+      </div>
+
+      <div class="card">
+        <img src="Imagenes/bandaCabeza.png" alt="bandas de Entrenamiento">
+        <h3>Bandas de Entrenamiento</h3>
+        <p>Te ayuda a no sudar mucho más.</p>
+        <p><strong>Q15.00</strong></p>
+        <button class="btn">Agregar</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+ <footer>
+    <div class="footer-content">
+      <div class="footer-info">
+        <p><strong>UrbanFit Gear</strong></p>
+        <p>Ciudad de Guatemala</p>
+        <p>Correo: urbanfitgear@gmail.com</p>
+        <p>Telefono: +502 2154-7531</p>
+      </div>
+      <div class="footer-Logo">
+        <img src="Imagenes/Logo.png" alt="Logo Footer" width="60"> <!-- 💡 Logo en el footer -->
+      </div>
+    </div>
+    <p class="copy">&copy; 2025 UrbanFit Gear - Todos los derechos reservados</p>
+  </footer>
+  <script>
+  function toggleMenu() {
+    document.querySelector('.nav-links').classList.toggle('active');
+  }
+</script>
+</body>
+</html>

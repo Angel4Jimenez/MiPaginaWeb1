@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>UrbanFit Gear - Contacto</title>
+  <link rel="icon" type="image/png" href="Logo.jpg">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="icon" href="Imagenes/Logo.png" type="image/x-icon">
+
+</head>
+<body>
+  <!-- HEADER -->
+  <header>
+    <div class="Logo">
+      <img src="Imagenes/Logo.png" alt="Logo UrbanFit Gear" width="50">
+      <h1>UrbanFit Gear</h1>
+    </div>
+    <ul class="nav-links">
+    <li><a href="index.html">Inicio</a></li>
+    <li><a href="productos.html">Productos</a></li>
+  </ul>
+  <!-- 🔽 Agrega esto -->
+  <div class="menu-toggle" onclick="toggleMenu()">☰</div>
+</nav>
+  </header>
+
+  <!-- CONTACTO -->
+  <section class="contact">
+    <h2>Contáctanos</h2>
+    <p class="section-desc">Deja tu mensaje o sugerencia y tendras una respuesta lo más rapido posible</p>
+    <div class="contact-box">
+      <form>
+        <input type="text" placeholder="Tu Nombre y Apellido" required>
+        <input type="email" placeholder="Tu Correo electronico" required>
+        <textarea placeholder="Tu Mensaje o sugerencia" rows="5" required></textarea>
+        <button type="submit">Enviar</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+   <footer>
+    <div class="footer-content">
+      <div class="footer-info">
+        <p><strong>UrbanFit Gear</strong></p>
+        <p>Ciudad de Guatemala</p>
+        <p>Correo: urbanfitgear@gmail.com</p>
+        <p>Telefono: +502 2154-7531</p>
+      </div>
+      <div class="footer-Logo">
+        <img src="Imagenes/Logo.png" alt="Logo Footer" width="60"> <!-- 💡 Logo en el footer -->
+      </div>
+    </div>
+    <p class="copy">&copy; 2025 UrbanFit Gear - Todos los derechos reservados</p>
+  </footer>
+  <script>
+  function toggleMenu() {
+    document.querySelector('.nav-links').classList.toggle('active');
+  }
+</script>
+</body>
+</html>
